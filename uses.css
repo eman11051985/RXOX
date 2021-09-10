@@ -1,0 +1,151 @@
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color:orangered;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 25px 25px; 
+    text-align: none;
+    text-decoration: none;
+}
+
+li  a:hover {background-color:greenyellow;
+}
+
+
+h1 {color:white;text-decoration: underline;text-align:center;font-size: 130%;background-color: rgb(255, 130, 57);
+border-style:double ;border-color:white;
+}
+body {
+    background-image: url(PIYL.gif);background-size: cover;
+}
+h3 {
+    font-size: 83%;color:white;text-decoration: underline;background-color:orange;text-align: center;
+}
+ 
+img {
+    border-style:dashed;border-color:aqua rgb(252, 78, 252) greenyellow rgb(248, 113, 113);padding: 10px;margin: 5px;background-color:rgb(255, 166, 88);
+}
+h4 {
+    color:pink;text-decoration: underline;text-align:right;font-size: 700%;text-transform: uppercase;letter-spacing:5px;
+    } 
+
+
+.em {
+    background-color:orange;border-style: double;letter-spacing: 10px;
+}
+.an {
+    background-color:rgb(255, 255, 71);letter-spacing: 10px;
+}
+.na {
+
+    background-color:rgb(255, 193, 138);border-style: double;letter-spacing: 10px;
+}
+    .si {background-color:lightpink;border-style: double;letter-spacing: 10px;
+
+}
+.am {
+    background-color:rgb(247, 155, 244);border-style: double;letter-spacing: 10px;
+}
+.lo {
+    color:white; font-size: 100%;padding: 11px;
+    margin: 20px;background-color:orange; text-transform: uppercase;letter-spacing: 15px;
+border-style: dashed;text-decoration: underline;
+}
+.eee {
+    text-align: center;padding: 10px;margin: 20px;background-color: yellow;
+}
+#oo {
+    color: orangered;text-transform:uppercase;
+}
+
+h6 { color:orangered;font-size: 210px; text-align:left;text-decoration: underline;padding: -1px;margin: -1px;
+
+}
+
+h2 {
+    color: orangered;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.flex-container > div {
+    background-color:rgb(255, 193, 138);
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    color:yellow;
+    border-style:dashed;
+    border-color:rgb(241, 123, 245) aqua yellowgreen rgb(250, 119, 119);
+}
+
+
+*  {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color:orangered;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    display: inline-block;
+    background-color: orangered;
+    padding: 12px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.7 ease;
+}
+
+ul li a{
+    font-size: 20px;color: yellow;
+}
+ul li :hover {
+    filter: blur(3px);
+    transform: scale(1.2);
+    box-shadow: 0 0 15px #d35400;
+    background-color:yellow;
+}
+
+ul li :hover a{
+    color:orangered;box-shadow: 0 0 15px #d35400;
+    text-shadow: 0 0 15px #d35400;: ;
+
+}
+
+ul li a {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
